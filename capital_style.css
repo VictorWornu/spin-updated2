@@ -1,0 +1,49 @@
+body {
+  background-image: url('cover.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 30px;
+}
+
+.container {
+  background-color: #c0acc6;
+  padding: 1px;
+  border-radius: 8px;
+}
+
+
+header {
+  margin: 40px;
+}
+
+
+.nav-div {
+  display: flex;
+
+}
+
+.nav {
+  border-radius: 360px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-primary {
+  width: 150px;
+  height: 170px;
+  margin: 20px;
+}
+
+.container-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}

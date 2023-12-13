@@ -1,0 +1,88 @@
+body {
+  background-image: url('cover.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 30px;
+}
+
+.container {
+  background-color: #c0acc6;
+  padding: 1px;
+  border-radius: 8px;
+/*  line-height: 20px;*/
+}
+
+.sign-in {
+/*  padding-left: 20px;*/
+  transition: all 1sec;
+}
+
+.sign-in:hover {
+  text-decoration: underline;
+}
+
+header {
+  margin: 40px;
+}
+
+form {
+  margin: 100px;
+/*  text-align: center;*/
+}
+
+.age-input {
+  margin-bottom: 30px;
+}
+
+.age-input {
+/*  width: 3vw;*/
+}
+
+.name-input {
+/*  width: 20vw;*/
+}
+
+.nav-div {
+  display: flex;
+
+}
+
+.nav {
+  border-radius: 360px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 850px) {
+  .age-input {
+    width: 10vw;
+  }
+
+  .name-input {
+    width: 40vw;
+  }
+
+  .sign-in {
+    width: 40vw;
+  }
+
+  .form-label {
+    width: 40vw;
+  }
+
+  .form-control {
+    width: 40vw;
+  }
+
+  form {
+  margin: 10px;
+  /*  text-align: center;*/
+  } 
+}
